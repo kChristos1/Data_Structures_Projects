@@ -1,0 +1,229 @@
+-------- BTREE DEGREE = 3 --------
+Printing avarage comparisons for each operation for each test! (10 tests in total)
+insertions (100000) :   49.87
+insertions (200000) :   48.69
+insertions (300000) :   52.6
+insertions (400000) :   52.64
+insertions (500000) :   53.06
+insertions (600000) :   53.3
+insertions (700000) :   53.75
+insertions (800000) :   55.07
+insertions (900000) :   55.31
+insertions (1000000) :   56.15
+---------------------------------
+searches (100000) :   34.32
+searches (200000) :   35.61
+searches (300000) :   36.69
+searches (400000) :   36.85
+searches (500000) :   37.19
+searches (600000) :   36.93
+searches (700000) :   37.12
+searches (800000) :   37.38
+searches (900000) :   38.7
+searches (1000000) :   38.83
+---------------------------------
+deletions (100000) :   7.86
+deletions (200000) :   11.75
+deletions (300000) :   19.12
+deletions (400000) :   26.08
+deletions (500000) :   32.71
+deletions (600000) :   44.13
+deletions (700000) :   53.91
+deletions (800000) :   64.78
+deletions (900000) :   74.98
+deletions (1000000) :   80.94
+-------- BTREE DEGREE = 64 --------
+Printing avarage comparisons for each operation for each test! (10 tests in total)
+insertions (100000) :   139.56
+insertions (200000) :   150.16
+insertions (300000) :   182.52
+insertions (400000) :   168.65
+insertions (500000) :   181.13
+insertions (600000) :   188.35
+insertions (700000) :   184.01
+insertions (800000) :   157.01
+insertions (900000) :   169.2
+insertions (1000000) :   180.0
+---------------------------------
+searches (100000) :   97.66
+searches (200000) :   101.7
+searches (300000) :   115.54
+searches (400000) :   115.55
+searches (500000) :   121.82
+searches (600000) :   130.86
+searches (700000) :   141.81
+searches (800000) :   119.32
+searches (900000) :   124.66
+searches (1000000) :   129.17
+---------------------------------
+deletions (100000) :13.23
+deletions (200000) :17.48
+deletions (300000) :23.71
+deletions (400000) :34.79
+deletions (500000) :41.8
+deletions (600000) :61.37
+deletions (700000) :81.89
+deletions (800000) :89.65
+deletions (900000) :97.33
+deletions (1000000) :104.25
+-------- AVL TREE --------
+Printing avarage comparisons for each operation for each test! (10 tests in total)
+insertions (100000) :   81.16
+insertions (200000) :   85.52
+insertions (300000) :   87.94
+insertions (400000) :   89.83
+insertions (500000) :   90.83
+insertions (600000) :   93.07
+insertions (700000) :   94.08
+insertions (800000) :   94.42
+insertions (900000) :   93.79
+insertions (1000000) :   96.25
+---------------------------------
+searches (100000) :   8.42
+searches (200000) :   8.75
+searches (300000) :   9.02
+searches (400000) :   9.04
+searches (500000) :   9.21
+searches (600000) :   9.48
+searches (700000) :   9.6
+searches (800000) :   9.72
+searches (900000) :   9.85
+searches (1000000) :   9.91
+---------------------------------
+deletions (100000) :   76.96
+deletions (200000) :   82.22
+deletions (300000) :   85.28
+deletions (400000) :   86.85
+deletions (500000) :   88.69
+deletions (600000) :   90.95
+deletions (700000) :   91.12
+deletions (800000) :   92.28
+deletions (900000) :   94.17
+deletions (1000000) :   95.48
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+Initializing the file...
+Tracking I/O performance as well
+Done!
+------------ DATA PAGE SIZE = 128 /// BPLUS ------------
+Printing avarage disk accesses for each operation for each test! (10 tests in total)
+insertions (50000) :   10.6
+insertions (100000) :   11.38
+insertions (150000) :   10.72
+insertions (200000) :   12.36
+insertions (250000) :   11.58
+insertions (300000) :   11.9
+insertions (350000) :   12.92
+insertions (400000) :   12.2
+insertions (450000) :   12.4
+insertions (500000) :   12.72
+---------------------------------
+searches (50000) :   8.0
+searches (100000) :   8.0
+searches (150000) :   8.0
+searches (200000) :   9.0
+searches (250000) :   9.0
+searches (300000) :   9.0
+searches (350000) :   9.0
+searches (400000) :   9.0
+searches (450000) :   9.0
+searches (500000) :   9.0
+---------------------------------
+deletions (50000) :   16.18
+deletions (100000) :   20.36
+deletions (150000) :   20.38
+deletions (200000) :   19.62
+deletions (250000) :   18.72
+deletions (300000) :   23.9
+deletions (350000) :   25.2
+deletions (400000) :   22.7
+deletions (450000) :   23.38
+deletions (500000) :   22.24
+------------ DATA PAGE SIZE = 256 /// BPLUS ------------
+insertions (50000) :   6.08
+insertions (100000) :   6.9
+insertions (150000) :   7.3
+insertions (200000) :   6.78
+insertions (250000) :   7.14
+insertions (300000) :   6.82
+insertions (350000) :   6.92
+insertions (400000) :   7.26
+insertions (450000) :   6.62
+insertions (500000) :   6.64
+---------------------------------
+searches (50000) :   4.0
+searches (100000) :   5.0
+searches (150000) :   5.0
+searches (200000) :   5.0
+searches (250000) :   5.0
+searches (300000) :   5.0
+searches (350000) :   5.0
+searches (400000) :   5.0
+searches (450000) :   5.0
+searches (500000) :   5.0
+---------------------------------
+deletions (50000) :   6.16
+deletions (100000) :   9.72
+deletions (150000) :   10.26
+deletions (200000) :   7.6
+deletions (250000) :   7.66
+deletions (300000) :   9.7
+deletions (350000) :   9.86
+deletions (400000) :   7.76
+deletions (450000) :   9.4
+deletions (500000) :   9.24

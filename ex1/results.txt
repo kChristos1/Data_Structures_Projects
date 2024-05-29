@@ -1,0 +1,82 @@
+Starting test...
+->Starting test for 1000 nodes
+->Starting test for 10000 nodes
+->Starting test for 30000 nodes
+->Starting test for 50000 nodes
+->Starting test for 70000 nodes
+->Starting test for 100000 nodes
+
+-------------------------------R E S U L T S--------------------------------------
+
+-----------------------------MEMORY LINKED LIST-----------------------------------
+
+->for Successful searches:
+Mean comparisons for searching 100 nodes out of 1000 nodes in memory list: 496.62
+Mean comparisons for searching 100 nodes out of 10000 nodes in memory list: 4823.85
+Mean comparisons for searching 100 nodes out of 30000 nodes in memory list: 14300.15
+Mean comparisons for searching 100 nodes out of 50000 nodes in memory list: 22856.91
+Mean comparisons for searching 100 nodes out of 70000 nodes in memory list: 32087.06
+Mean comparisons for searching 100 nodes out of 100000 nodes in memory list: 53685.77
+
+->for Unuccessful searches:
+Mean comparisons for 100 faillure searches out of 1000 nodes in memory list: 1000.0
+Mean comparisons for 100 faillure searches out of 10000 nodes in memory list: 10000.0
+Mean comparisons for 100 faillure searches out of 30000 nodes in memory list: 30000.0
+Mean comparisons for 100 faillure searches out of 50000 nodes in memory list: 50000.0
+Mean comparisons for 100 faillure searches out of 70000 nodes in memory list: 70000.0
+Mean comparisons for 100 faillure searches out of 100000 nodes in memory list: 100000.0
+
+-----------------------------MEMORY HASH TABLE-----------------------------------
+
+->for Successful searches:
+Mean comparisons for searching 100 nodes out of 1000 nodes in memory hash Table: 51.73
+Mean comparisons for searching 100 nodes out of 10000 nodes in memory hash Table: 480.93
+Mean comparisons for searching 100 nodes out of 30000 nodes in memory hash Table: 1435.05
+Mean comparisons for searching 100 nodes out of 50000 nodes in memory hash Table: 2290.1
+Mean comparisons for searching 100 nodes out of 70000 nodes in memory hash Table: 3205.33
+Mean comparisons for searching 100 nodes out of 100000 nodes in memory hash Table: 5362.99
+
+->for Unsuccessful searches:
+Mean comparisons for 100 faillure searches out of 1000 nodes in memory hash Table: 105.86
+Mean comparisons for 100 faillure searches out of 10000 nodes in memory hash Table: 1004.59
+Mean comparisons for 100 faillure searches out of 30000 nodes in memory hash Table: 3005.63
+Mean comparisons for 100 faillure searches out of 50000 nodes in memory hash Table: 5007.09
+Mean comparisons for 100 faillure searches out of 70000 nodes in memory hash Table: 7006.1
+Mean comparisons for 100 faillure searches out of 100000 nodes in memory hash Table: 10006.9
+
+---------------------------------DISK LIST---------------------------------------
+
+->for Successful searches:
+Mean disk accesses for searching 100 nodes out of 1000 nodes (32 data pages) in disk list: 15.97
+Mean disk accesses for searching 100 nodes out of 10000 nodes (313 data pages) in disk list: 151.21
+Mean disk accesses for searching 100 nodes out of 30000 nodes (938 data pages) in disk list: 447.37
+Mean disk accesses for searching 100 nodes out of 50000 nodes (1563 data pages) in disk list: 714.75
+Mean disk accesses for searching 100 nodes out of 70000 nodes (2188 data pages) in disk list: 1003.18
+Mean disk accesses for searching 100 nodes out of 100000 nodes (3126 data pages) in disk list: 1678.18
+
+->for Unsuccessful searches:
+Mean disk accesses for 100 faillure searches out of 1000 nodes (32 data pages) in disk list: 32.0
+Mean disk accesses for 100 faillure searches out of 10000 nodes (313 data pages) in disk list: 313.0
+Mean disk accesses for 100 faillure searches out of 30000 nodes (938 data pages) in disk list: 938.0
+Mean disk accesses for 100 faillure searches out of 50000 nodes (1563 data pages) in disk list: 1563.0
+Mean disk accesses for 100 faillure searches out of 70000 nodes (2188 data pages) in disk list: 2188.0
+Mean disk accesses for 100 faillure searches out of 100000 nodes (3126 data pages) in disk list: 3125.0
+
+---------------------------------DISK HASH TABLE---------------------------------------
+
+->for Successful searches:
+Mean disk accesses for searching 100 nodes out of 1000 nodes (32 data pages) in disk hash table: 2.42
+Mean disk accesses for searching 100 nodes out of 10000 nodes (313 data pages) in disk hash table: 19.6
+Mean disk accesses for searching 100 nodes out of 30000 nodes (938 data pages) in disk hash table: 55.21
+Mean disk accesses for searching 100 nodes out of 50000 nodes (1563 data pages) in disk hash table: 88.86
+Mean disk accesses for searching 100 nodes out of 70000 nodes (2188 data pages) in disk hash table: 128.56
+Mean disk accesses for searching 100 nodes out of 100000 nodes (3126 data pages) in disk hash table: 197.38
+
+->for Unsuccessful searches:
+Mean disk accesses for searching 100 faillure searches out of 1000 nodes (32 data pages) in disk hash table: 3.55
+Mean disk accesses for searching 100 faillure searches out of 10000 nodes (313 data pages) in disk hash table: 32.39
+Mean disk accesses for searching 100 faillure searches out of 30000 nodes (938 data pages) in disk hash table: 95.98
+Mean disk accesses for searching 100 faillure searches out of 50000 nodes (1563 data pages) in disk hash table: 159.91
+Mean disk accesses for searching 100 faillure searches out of 70000 nodes (2188 data pages) in disk hash table: 223.53
+Mean disk accesses for searching 100 faillure searches out of 100000 nodes (3126 data pages) in disk hash table: 319.25
+Test done!
